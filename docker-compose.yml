@@ -1,0 +1,9 @@
+services:
+  postgres:
+    container_name: postgres-sql-bsn
+    image: postgres
+    environment:
+     POSTGRES_USER: user1
+     POSTGRES_PASSWORD: deneme
+     PGDATA: /var/lib/postgresql/data
+     POSTGRES_DB: book_social_network
